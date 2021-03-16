@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 40px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: dimgray;
+}
+.container{
+    width: 30%;
+    background-color:floralwhite;
+    border-radius: 10px;
+}
+form{
+    padding: 30px;
+}
+h1, h3{
+    text-align: center;
+    padding: 10px;
+}
+img{
+    display: flex;
+    justify-content: center;
+}
+.calbtn, .clearbtn{
+    border: 1px solid dimgrey;
+    background-color: dimgrey;
+    color:ghostwhite;
+    padding: 5px;
+    border-radius: 5px;
+    width: 40%;
+    display: inline-block;
+}
+
+.calbtn:active, .clearbtn:active {
+    /* background-color: darkgrey; */
+    transform: scaleX(0.95)
+}
+.buttons{
+    display: flex;
+    justify-content:space-around;
+}
+input{
+    font-size: 18px;
+    border: 1px solid lightgray;
+    width: 100%;
+    margin: 10px;
+    outline: none;
+    
+}
+
+.result-page div{
+    display: inline-block;
+}
+.result-page input{
+    background-color:transparent;
+    border: none;
+    outline: none;
+    width: 60%;
+}
+
+.loading, .result-page{
+    display: none;
+    justify-content: center;
+}
