@@ -2,6 +2,7 @@ const calculate = document.querySelector('input.calbtn')
 const form = document.querySelector('form')
 const UIamount = document.querySelector('.money')
 const cleanbtn = document.querySelector('.clearbtn')
+const testbtn = document.querySelector('.test')
 
 form.addEventListener('submit', function(e){
     
@@ -105,4 +106,14 @@ function cleanData(e){
     page.style.display = 'none'
 
     e.preventDefault()
+}
+
+testbtn.addEventListener('click', test)
+
+function test(e){
+    
+    const collape = document.querySelector('#collapseHome')
+    collape.classList.remove('d-none')
+    console.log(collape.className)
+    e.preventDefault();
 }
