@@ -104,13 +104,35 @@ a:hover{
         font-size: 3rem;
         left: 20%;
     }
+
+    .input{
+        width: 100%;
+    }
+
+    .container{
+        width: 100%;
+    }
+    form{
+        padding: 0;
+    }
   }
 
 
-/* @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .font{
         font-size: 2rem;
         left: 20%;
     }
-  } */
+
+    .input{
+        width: 100%;
+    }
+
+    .container{
+        width: 100%;
+    }
+    form{
+        padding: 0;
+    }
+  }
 
